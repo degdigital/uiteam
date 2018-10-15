@@ -5,6 +5,10 @@ body {
     color: var(--color-text);
 }
 
+a {
+    color: var(--color-blue);
+}
+
 p {
     line-height: 1.6;
 }

@@ -1,3 +1,40 @@
 .stats-list {
     list-style: none;
+    display: grid;
+    grid-gap: 2rem 0;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.stat__number {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+    line-height: 1;
+}
+
+.stat__label {
+    text-transform: uppercase;
+}
+
+@media (--small) {
+    .section--stats {
+        text-align: center;
+    }
+
+    .stats-list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem 1rem;
+    }
+
+    .stat__number {
+        font-size: 3rem;
+    }
+}
+
+@media (--medium) {
+    .stat__number {
+        font-size: 4rem;
+        margin-bottom: .75rem;
+    }
 }
