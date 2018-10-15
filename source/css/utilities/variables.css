@@ -6,12 +6,14 @@
 
 	--color-text: var(--color-gray);
 
-    --font-family-primary: serif;
-    --font-family-headings: sans-serif;
+    --font-family-primary: 'Open Sans', sans-serif;
+    --font-family-secondary: 'Barlow', sans-serif;
 
 	--font-size-base: 1em;
-    --font-size-base-medium: 1.25em;
-	--font-weight-normal: 400;
 
-    --container-width: 62.5rem;
+    --container-width: 77.5rem;
 }
+
+@custom-media --small (min-width: 40em);
+@custom-media --medium (min-width: 64em);
+@custom-media --large (min-width: 81.5em);

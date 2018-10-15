@@ -1,0 +1,10 @@
+.logo {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+@media (--small) {
+    .logo {
+        margin-bottom: 1.25rem;
+    }
+}

@@ -1,0 +1,15 @@
+.section {
+    margin: 2.5rem 0;
+}
+
+@media (--small) {
+    .section {
+        margin: 3rem 0;
+    }
+}
+
+@media (--medium) {
+    .section {
+        margin: 4.25rem 0;
+    }
+}

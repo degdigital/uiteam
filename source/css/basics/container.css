@@ -1,0 +1,17 @@
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (--small) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media (--large) {
+    .container {
+        padding: 0 0;
+    }
+}

@@ -1,0 +1,20 @@
+.header {
+    padding: 4rem 0 1.5rem;
+    background-image: url('../images/hero-large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: var(--color-white);
+}
+
+@media (--small) {
+    .header {
+        padding: 6rem 0 2rem;
+    }
+}
+
+@media (--medium) {
+    .header {
+        padding: 9.5rem 0 2.5rem;
+    }
+}
