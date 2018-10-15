@@ -1,0 +1,53 @@
+.team-member-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem .75rem;
+}
+
+.team-member__item {
+    text-align: center;
+}
+
+.team-member__image {
+    display: block;
+    width: 9.25rem;
+    margin: 0 auto .75rem;
+    border-radius: 100%;
+    border: 0.35rem solid var(--color-blue);
+}
+
+.specialties-list {
+    padding-left: 1.25rem;
+}
+
+@media (--small) {
+    .team-member-list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem 1rem;
+    }
+
+    .team-member__item {
+        text-align: left;
+    }
+
+    .team-member__image {
+        margin: 0 0 .75rem;
+    }
+
+    .team-member__name {
+        margin-bottom: .25rem;
+    }
+}
+
+@media (min-width: 53.75em) {
+    .team-member-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 71.25em) {
+    .team-member-list {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

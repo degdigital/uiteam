@@ -13,3 +13,16 @@
         margin: 4.25rem 0;
     }
 }
+
+.section--full {
+    padding: 4.25rem 0;
+    color: var(--color-white);
+}
+
+.section--team {
+    background-color: var(--color-gray);
+}
+
+.section--stats {
+    background-color: var(--color-blue);
+}
