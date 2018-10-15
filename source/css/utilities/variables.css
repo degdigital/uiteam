@@ -1,0 +1,17 @@
+:root {
+	--color-black: #000;
+    --color-white: #fff;
+    --color-gray: #373737;
+    --color-blue: #1782c5;
+
+	--color-text: var(--color-gray);
+
+    --font-family-primary: serif;
+    --font-family-headings: sans-serif;
+
+	--font-size-base: 1em;
+    --font-size-base-medium: 1.25em;
+	--font-weight-normal: 400;
+
+    --container-width: 62.5rem;
+}
