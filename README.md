@@ -1,1 +1,1 @@
-# uiteam
+# DEG UI Team Capabilities

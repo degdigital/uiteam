@@ -1,0 +1,29 @@
+{
+  "name": "degui",
+  "version": "1.0.0",
+  "description": "A website outlining the capabilities of the DEG UI team.",
+  "scripts": {
+    "start": "skel build && skel serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briangraves/brianleegraves.com.git"
+  },
+  "author": "Brian Graves <bgraves@degdigital.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@deg-skeletor/cli": "^1.0.0",
+    "@deg-skeletor/core": "^1.1.0",
+    "@deg-skeletor/plugin-copy": "^1.0.1",
+    "@deg-skeletor/plugin-express": "^1.1.0",
+    "@deg-skeletor/plugin-postcss": "^1.0.0",
+    "@deg-skeletor/plugin-watch": "^1.0.0",
+    "cssnano": "^4.1.4",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-custom-media": "^7.0.6",
+    "postcss-custom-properties": "^8.0.8",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^4.1.0"
+  }
+}
