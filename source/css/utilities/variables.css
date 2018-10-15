@@ -1,8 +1,9 @@
 :root {
 	--color-black: #000;
     --color-white: #fff;
-    --color-gray: #373737;
-    --color-blue: #1782c5;
+    --color-gray: #383838;
+    --color-blue: #006095;
+    --color-blue-light: #0080C7;
 
 	--color-text: var(--color-gray);
 

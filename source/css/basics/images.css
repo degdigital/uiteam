@@ -1,6 +1,7 @@
 .logo {
     display: block;
     margin-bottom: 1rem;
+    width: 4.687rem;
 }
 
 @media (--small) {

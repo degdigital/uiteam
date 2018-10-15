@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: top;
     color: var(--color-white);
+    border-bottom: 0.5rem solid var(--color-blue);
 }
 
 @media (--small) {
