@@ -2,12 +2,9 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: .75rem;
+    grid-row-gap: 1rem;
     padding: 0;
-}
-
-.capabilities-list__item {
-
+    margin-top: 1.5rem;
 }
 
 @media (--small) {
