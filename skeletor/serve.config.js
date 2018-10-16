@@ -8,7 +8,7 @@ module.exports = {
 			    "currentDirectory": __dirname,
 			    "entryPoints": [
 			        {
-			            "entry": '../dist',
+			            "entry": '../docs',
 			            "route": ''
 			        }
 			    ],
