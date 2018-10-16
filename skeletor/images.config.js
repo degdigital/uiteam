@@ -6,7 +6,7 @@ module.exports = {
             "config": {
                 directories: [{
                     src: 'source/images',
-                    dest: 'docs/images'
+                    dest: 'dist/images'
                 }]
             }
         }
