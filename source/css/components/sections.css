@@ -2,9 +2,16 @@
     margin: 2.5rem 0;
 }
 
+.section__header {
+    margin-bottom: 1rem;
+}
+
 @media (--small) {
     .section {
         margin: 3rem 0;
+    }
+    .section__header {
+        margin-bottom: 2rem;
     }
 }
 

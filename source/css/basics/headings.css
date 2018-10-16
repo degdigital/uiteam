@@ -14,7 +14,7 @@
     font-family: var(--font-family-secondary);
     font-weight: 600;
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: .25rem;
 }
 
 .heading--small {
@@ -35,7 +35,6 @@
 
     .heading--medium {
         font-size: 1.75rem;
-        margin-bottom: 2rem;
     }
 
     .heading--small {
