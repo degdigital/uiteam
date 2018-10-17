@@ -161,14 +161,18 @@ System.register([], function (exports, module) {
 			        const intersectionOptions = {
 			            root: null,
 			            rootMargin: '0px',
-			            threshold: 1.0
+			            threshold: 0
 			        };
 			        const observer = new IntersectionObserver(onIntersection, intersectionOptions);
 			        observer.observe(statsEl);
 			    };
 
 			    const onIntersection = (entries, observer) => {
-			        cycle(cycleEls);
+			        entries.forEach(entry => {
+			            if (entry.isIntersecting) {
+			                cycle(cycleEls);
+			            }
+			        });
 			    };
 
 			    const cycle = els => {
