@@ -19,6 +19,10 @@
     .section {
         margin: 4.25rem 0;
     }
+
+    .section--capabilities .capabilities-list {
+        margin-top: 3rem;
+    }
 }
 
 .section--full {

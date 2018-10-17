@@ -18,6 +18,10 @@
     border: 0.35rem solid var(--color-blue);
 }
 
+.team-member__link {
+    color: var(--color-white);
+}
+
 .specialties-list {
     padding-left: 1.25rem;
 }
