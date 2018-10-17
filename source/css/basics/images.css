@@ -4,6 +4,11 @@
     width: 4.687rem;
 }
 
+.logo-footer {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (--small) {
     .logo {
         margin-bottom: 1.25rem;
