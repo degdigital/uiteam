@@ -242,15 +242,15 @@
 				</header>
 				<ul class="stats-list">
 					<li class="stats-list__stat">
-						<div class="stat__number stat__number--green">283</div>
+						<div class="stat__number stat__number--green" data-stat="283">283</div>
 						<div class="stat__label">DEG Projects Built</div>
 					</li>
 					<li class="stats-list__stat">
-						<div class="stat__number stat__number--teal">2027</div>
+						<div class="stat__number stat__number--teal" data-stat="2027">2027</div>
 						<div class="stat__label">Github Contributions</div>
 					</li>
 					<li class="stats-list__stat">
-						<div class="stat__number">5</div>
+						<div class="stat__number" data-stat="5">5</div>
 						<div class="stat__label">New Blog Posts</div>
 					</li>
 				</ul>
@@ -301,5 +301,11 @@
 			</div>
 		</section>
 	</main>
+
+	<script type="module" src="js/main-bundle.js"></script>
+	<script nomodule src="js/vendor/system.js"></script>
+	<script nomodule>
+		System.import('main-bundle-nomodule.js');
+	</script>
 </body>
 </html>

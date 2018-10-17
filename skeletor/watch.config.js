@@ -17,6 +17,17 @@ module.exports = {
 						]
 					},
 					{
+						name: "js",
+						paths: "source/js/**/*.js",
+						events: ['add', 'change', 'delete'],
+						tasks: [
+							{
+								name: "build",
+								subTasks: ["js"]
+							}
+						]
+					},
+					{
 						name: "html",
 						paths: "source/html/**/*.html",
 						events: ['add', 'change', 'delete'],
