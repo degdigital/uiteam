@@ -7,7 +7,7 @@ module.exports = {
 				"files": [
 					{
 						"src": "source/css/main.css",
-						"dest": "dist/css/main.css"
+						"dest": "docs/css/main.css"
 					}
 				],
 				"plugins": [

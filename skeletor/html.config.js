@@ -6,7 +6,7 @@ module.exports = {
             "config": {
                 directories: [{
                     src: 'source/html',
-                    dest: 'dist'
+                    dest: 'docs'
                 }]
             }
         }
