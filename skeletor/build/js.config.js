@@ -4,7 +4,7 @@ module.exports = {
         {
             "name": "@deg-skeletor/plugin-rollup",
             "config": {
-                bundles: require('../js-common.js').bundles("dist/js/"),
+                bundles: require('../js-common.js').bundles("docs/js/"),
                 rollupPlugins: require('../js-common.js').rollupPlugins
             }
         }
