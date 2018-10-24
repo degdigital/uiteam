@@ -6,6 +6,15 @@
     margin-bottom: 1rem;
 }
 
+.section--full {
+    padding: 3.25rem 0;
+    color: var(--color-white);
+}
+
+.section--team {
+    background-color: var(--color-gray);
+}
+
 @media (--small) {
     .section {
         margin: 3rem 0;
@@ -23,17 +32,8 @@
     .section--capabilities .capabilities-list {
         margin-top: 3rem;
     }
-}
 
-.section--full {
-    padding: 4.25rem 0;
-    color: var(--color-white);
-}
-
-.section--team {
-    background-color: var(--color-gray);
-}
-
-.section--stats {
-    background-color: var(--color-blue);
+    .section--full {
+        padding: 4.25rem 0;
+    }
 }
