@@ -11,20 +11,32 @@
     color: var(--color-white);
 }
 
+.section--intro {
+    margin-top: 1.75rem;
+}
+
 .section--team {
     background-color: var(--color-gray);
 }
 
 @media (--small) {
+
     .section {
         margin: 3rem 0;
     }
+
     .section__header {
         margin-bottom: 2rem;
     }
+
+    .section--intro {
+        margin-top: 2.25rem;
+    }
+
 }
 
 @media (--medium) {
+
     .section {
         margin: 4.25rem 0;
     }
@@ -36,4 +48,9 @@
     .section--full {
         padding: 4.25rem 0;
     }
+
+    .section--intro {
+        margin-top: 2.25rem;
+    }
+
 }
