@@ -1,5 +1,6 @@
 .section {
     margin: 2.5rem 0;
+    &:last-child { margin-bottom: 0; }
 }
 
 .section__header {
