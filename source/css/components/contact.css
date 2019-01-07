@@ -1,0 +1,13 @@
+.section--contact {
+    background-color: #383838;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    text-align: center;
+}
+
+.section--contact {
+    .section__header {
+        margin-bottom: 0;
+    }
+}
